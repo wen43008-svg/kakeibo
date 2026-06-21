@@ -1,4 +1,4 @@
-const CACHE='kakeibo-v10';
+const CACHE='kakeibo-v11';
 self.addEventListener('install',e=>{self.skipWaiting();});
 self.addEventListener('activate',e=>{e.waitUntil(clients.claim());});
 self.addEventListener('fetch',e=>{
